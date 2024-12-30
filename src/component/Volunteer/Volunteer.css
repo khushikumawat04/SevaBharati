@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.volunteer-section {
+    height: auto; /* Auto height for responsiveness */
+    width: 100%;
+    padding: 20px; /* Add padding for better spacing */
+    margin-top: 30px;
+}
+
+.volunteer-heading {
+    /* border: 2px solid blue; */
+    color: #E2311D;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    /* margin-top: 50px;  */
+  
+}
+
+.volunteer-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap */
+    justify-content: space-evenly; /* Center content */
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+
+.volunteer-image-part {
+    width: 50%; /* Default width */
+    max-width: 400px; /* Limit max width */
+    display: flex; /* Center image */
+    justify-content: center; /* Centering */
+}
+
+.volunteer-details {
+    width: 50%; /* Default width */
+    color: #222240;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+    margin-left: 40px; /* Default margin */
+    /* margin-top: 20px;  */
+    display: inline-block;
+}
+
+.volunteer-image {
+    height: auto; /* Auto height for responsiveness */
+    max-width: 100%; /* Ensure the image scales */
+}
+
+.volunteer-now {
+    background-color: #E67E22;
+    padding: 10px 35px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Pointer cursor */
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .volunteer-image-part, .volunteer-details {
+        width: 100%; /* Full width on smaller screens */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+
+    .volunteer-details {
+        margin-top: 10px; /* Adjust top margin */
+        margin-bottom: 20px; /* Add bottom margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .volunteer-heading {
+        font-size: 20px; /* Smaller heading */
+    }
+
+    .volunteer-details {
+        font-size: 14px; /* Smaller text */
+    }
+
+    .volunteer-now {
+        padding: 10px 20px; /* Adjust button size */
+        font-size: 12px; /* Smaller button text */
+    }
+    .volunteer-details p {
+        text-align: justify;
+    }
+}

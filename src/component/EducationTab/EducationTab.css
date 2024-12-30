@@ -1,0 +1,130 @@
+.tab-section-container{
+    padding: 20px;
+    margin-top: 20px;
+}
+.tab-section-container .tab-section-intro{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 50px;
+    padding: 30px;
+}
+.tab-section-img img{
+    width: 600px;
+    height: 300px;
+}
+.tab-section-img video{
+    width: 600px;
+    height: 300px;
+}
+
+.tab-section-intro .tab-section-content h1{
+  font-weight: 600;
+  color: #0A8C18;
+  border-bottom: 3px solid #FF5722 ;
+  width: 200px;
+}
+.tab-section-intro .tab-section-content p{
+ text-align: justify;
+ margin-top: 20px;
+ padding: 0;
+
+}
+
+/* cards */
+.tab-section-card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 80px 50px;
+    padding: 50px;
+}
+.tab-section-cards h2{
+    text-align: center;
+    font-weight: 600;
+  color: #0A8C18;
+  /* border-bottom: 3px solid #FF5722 ; */
+  /* width: 400px; */
+}
+.tab-section-cards hr{
+    height: 2px;
+    width: 300px;
+    font-weight: bold;
+    background-color: #FF5722;
+    border: none;
+    margin: auto;
+    margin-top: 3px;
+    
+}
+
+
+.tab-section-card-container .ecard{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.tab-section-card-container .ecard h3{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.tab-section-card-container .ecard .heding-line{
+    height: 3px;
+    width: 80%;
+    font-weight: bold;
+    background-color: #FF5722;
+    border: none;
+    /* margin: auto; */
+    margin-top: 3px;
+    margin-left: 50px;
+  
+
+}
+.tab-section-card-container .ecard p{
+    /* text-align: justify; */
+    font-size: 15px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    padding: 0px;
+}
+.tab-section-card-container .ecard img{
+    height: 300px;
+    width: 100%;
+}
+.tab-section-card-container .ecard video{
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .tab-section-container .tab-section-intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab-section-img img{
+  
+     width: 100%;
+     height: 250px;
+    }
+    .tab-section-img video{
+        width: 100%;
+        height: 300px;
+    }
+    .tab-section-intro .tab-section-content p{
+        text-align: justify;
+        margin-top: 20px;
+        font-size: 13px;
+       }
+       .tab-section-card-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 80px 100px;
+        padding: 0px;
+    }
+    .tab-section-card-container .ecard img{
+        height: 300px;
+        width: 100%;
+    }
+}

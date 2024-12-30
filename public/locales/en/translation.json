@@ -1,0 +1,442 @@
+{
+  "Nav": {
+    "navbar": {
+      "logo": {
+        "src": "/images/logo1.png",
+        "alt": "Logo"
+      },
+      "links": {
+        "Homepage": "Home",
+        "About Us": "About Us",
+        "Our Presence": "Our Presence",
+        "Governing Board Members": "Governing Board Members",
+        "Annual Reports": "Annual Reports",
+        "Our Approach": "Our Approach",
+        "Education": "Education",
+        "Health": "Health",
+        "Samajik Aayam": "Samajik Aayam",
+        "Swavalamban": "Swavalamban",
+        "Programs": "Programs",
+        "Events": "Events",
+        "Donate": "Donate",
+        "Volunteer": "Become a Volunteer"
+      }
+    }
+  },
+  "AboutUs1": {
+    "AboutUsHeading": {
+      "Heading": "About Us"
+    },
+    "AboutUsContent": {
+      "p": {
+        "text": " Rashtriya Sewa Bharati  is a prominent non-governmental organization (NGO) in Bharat dedicated to social service and community development. Founded on the principles of selfless service and volunteerism, Sewa Bharti operates with a vision to empower marginalized communities, to promote education, alleviate poverty, and foster socio-economic development across the nation"
+      }
+    },
+    "link": {
+      "button": {
+        "text": "Read More"
+      }
+    }
+  },
+  "AboutUs2": {
+    "AboutUsHeading2": {
+      "Heading2": "About Us"
+    },
+    "ourHistory": {
+      "ourhistory": "Our History"
+    },
+    "container": {
+      "history": {
+        "paragraph1": {
+          "text": "Rashtriya Sewa Bharati was founded in 1989 by its parent organization Rastriya SvayamSewak Sangh or RSS. Rashtriya Sewa Bharati have come a long way. Since then it has more than 1,80,000 activities and 2 projects (Prakalp) all over Bharat. Sewa Bharti has its multiple units at district level in all states & UTs. Sewa Bharti Khargone came into existence as an NGO in 1997."
+        },
+        "paragraph2": {
+          "text": "Sewa Bharti Khargone is working in areas of informal education (Sanskar Kendra), health (Regular health check-up camps for pregnant women of underprivileged society, Regular Health check-up of SC/ST Hostel students, adolescent Health awareness camp), Vocation training for empowerment of women. Sewa Bharti Khargone has always endorsed developing skills and competencies of the local communities with a view to enabling them to operate and maintain the asset created through implementation of the projects on a sustainable basis. Rashtriya Sewa Bharati is a prominent non-governmental organization (NGO) in Bharat dedicated to social service and community development. Founded on the principles of selfless service and volunteerism, Sewa Bharti operates with a vision to empower marginalized communities, to promote education, alleviate poverty, and foster socio-economic development across the nation."
+        }
+      }
+    },
+    "vision": {
+      "text": "We are committed to creating a strong & independent society without inequalities & discrimination where everybody enjoys equal opportunities."
+    },
+    "mission": {
+      "text": "To foster a democratic and equitable living environment where all vulnerable people, especially underprivileged women & children, have access to education, health, & sustainable livelihood opportunities & essential services irrespective of their economic and social status."
+    },
+    "goal": {
+      "text": "Overall socio-economic development of underprivileged people, especially women & children."
+    }
+  },
+  "OurApproach": {
+    "Heading": "Our Approach",
+    "ListItems": {
+      "Education": "Education",
+      "Health": "Health",
+      "SamajikAyam": "Samajik Ayam",
+      "Swavalamban": "Swavalamban"
+    },
+    "Paragraph": {
+      "text": "RashtriyaSewa Bharati focuses on Support, training, research & analysis, and up-gradation of its representative and affiliated organisations, which work for the betterment of marginalized, oppressed, and neglected people in the field of health, education, and livelihood and also provide support and guidance in social activities and disaster and relief work. The aim of RashtriyaSewa Bharati is not only to bring economical sustainability but to develop the duty of social responsibility, equality, and thought of nationality among the beneficiaries."
+    },
+    "Link": {
+      "button": {
+        "text": "Read More"
+      }
+    }
+  },
+  "EducationTab": {
+    "Heading": "Education",
+    "InitiativesHeading": " Some Initiatives",
+    "IntroParagraph": "Education, culture, and values are the main pillars for the development of any country and to empower the young mind to work for the betterment of the society and nation and this has to be reached to the last standing person. Inspired by the vision of Swami Vivekananda 'ideal of all education, all training should be man-making'. Rashtriya Sewa Bharati is committed to providing ideal education with the culture and values of our great nation in the remotest villages and slum areas.",
+    "Initiative1": {
+      "heading": "Disha Coaching Classes For 10th Class",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative2": {
+      "heading": "Disha Computer Classes For All Students",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative3": {
+      "heading": "Balsanskar Kendra",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man-making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative4": {
+      "heading": "Life Skills Workshops for students",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man-making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    }
+  },
+  "HealthTab": {
+    "Heading": "Healthcare",
+    "InitiativesHeading": " Some Initiatives in HealthCare",
+    "IntroParagraph": "“Healthy people make a healthy nation”, The Projects of RashtriyaSewa Bharati are based on curative health care as well as preventative health measures. India is the mother of all medical sciences from Ayurveda to Surgery, the land which has given birth to the great scientist in this field like Patanjali, Susutra, Charak. RashtriyaSewa Bharati has taken a small step in keeping alive the work of those legends, by establishing yoga Kendra, Ayurveda Kendra, homeopathy centers, aroygamitr, and many more throughout the country and currently running more than thousand of projects in the field of healthcare through their representative organisation, Sewa Bharati.",
+    "Initiative1": {
+      "heading": "Swasthya Parikshn kendra",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative2": {
+      "heading": "Swasthya Parikshan and Upchar kendra",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative3": {
+      "heading": "Health Education",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man-making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative4": {
+      "heading": "Kishori Swasthya Parikshan",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man-making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative5": {
+      "heading": "Help centre at District Hospital Khargone",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man-making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    }
+  },
+  "SamajikTab": {
+    "Heading": "SamajikAyam",
+    "InitiativesHeading": "Some Initiatives in Samajik",
+    "IntroParagraph": "People make society and Societies make a nation. Thus, it becomes the responsibility of every person to care, support, and think about society when she needs it. Rashtriya Sewa Bharati is dedicated to serve the society and nation in each and every adverse situation, call it a natural disaster or pandemic, we always reach first to the affected people with our volunteers and representative organisations, Sewa Bharati. Celebrating national festivals, promoting cultural diversity, and fostering national unity among diverse communities.",
+    "Initiative1": {
+      "heading": "eShram Card for Shramik",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative2": {
+      "heading": "Training for SHG Members",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants cannot afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social-going students. The vision behind this is that no person should be deprived from the opportunities to secure themselves for a bright future, merely due to financial problems."
+    },
+    "Initiative3": {
+      "heading": "eShram Card Distribution",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative4": {
+      "heading": "Kishori Swasthya Parikshan",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative5": {
+      "heading": "eShram Card awareness on Shivaji Maharaj Jayanti",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    }
+  },
+  "SwavalambanTab": {
+    "Heading": "Swavalamban",
+    "IntroParagraph": "Skills and knowledge are the driving forces of the economic growth and social development of a country. In rapidly growing economy like India with a vast and ever-increasing population, the problem is two-fold. On one hand, there is a severe paucity of highly-trained, quality workforce, while on the other; large sections of the population possess little or no job skills. Offering vocational training in trades such as tailoring, computer skills, and handicrafts to enhance employability.",
+    "InitiativesHeading": "Some Initiatives in Swavalamban",
+    "Initiative1": {
+      "heading": "Computer Training Center",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants can not afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social goings students. The vision behind this is that no person should be deprived from the opportunities to secure themself for a bright future, merely due to financial problems."
+    },
+    "Initiative2": {
+      "heading": "Bag Making",
+      "description": "Nowadays there are quite a number of competitive examinations for securing seats to higher education or jobs. It has also been seen that there are numbers of professional coaching centers, that prepare the student for those competitive examinations. But many aspirants can not afford to enroll in those centers as the fees charged by them are very high to be affordable to the mass. Rashtriya Sewa Bharati through its representative organisations is running several free coaching classes for competitive examinations as well as classes for social goings students. The vision behind this is that no person should be deprived from the opportunities to secure themself for a bright future, merely due to financial problems."
+    },
+    "Initiative3": {
+      "heading": "Silai Kendra Sanchalan",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative4": {
+      "heading": "Mehndi Training Center",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    },
+    "Initiative5": {
+      "heading": "Roop Nikharika Training Center",
+      "description": "Children coming from remote villages and slums area are deprived of getting the revision classes of the courses studied in their schools. Their parents, who are daily wages or illiterate and face difficulties in providing educational support at home. To build a bridge between this gap, Rashtriya Sewa Bharti, through its representative organisation, Sewa Bharati runs more than thousands Samskara Kendra and EkalVidhalya throughout the country, where one teacher teaches the course syllabus along with the culture and value of our nation. The whole ecosystem of this project is based upon man making. The teachers of this school also visit the parents of the children, who are still deprived of education, and encourage them to send their children to school. The project is designed with the aim to eradicate illiteracy and prepare the children for a better tomorrow."
+    }
+  },
+  "Programs": {
+    "heading": "Programs",
+    "Button": "Read More",
+    "Program1": {
+      "title": "Disaster Management",
+      "description": "Providing immediate relief and long-term rehabilitation support during natural calamities."
+    },
+    "Program2": {
+      "title": "Computer Classes",
+      "description": "Sevabharti organizes offering vocational training in trades such as tailoring, computer skills to enhance employability."
+    },
+    "Program3": {
+      "title": "Major Anuradha Smriti Seva Sadan",
+      "description": "There is a huge difference between being born disabled and becoming disabled by accident."
+    },
+    "Program4": {
+      "title": "Vraddh Jan Seva Kendr",
+      "description": "A program aimed at supporting the elderly, providing services and care for those in need."
+    }
+  },
+  "RecentEvents": {
+    "Heading": "Program run by Sevabharti",
+    "Program1": {
+      "title": "Disaster Management",
+      "description": "Providing immediate relief and long-term rehabilitation support during natural calamities. Responding to natural disasters and humanitarian crises with timely relief and rehabilitation efforts."
+    },
+    "Program2": {
+      "title": "Major Anuradha Smriti Seva Sadan",
+      "description": "A program dedicated to supporting those who have become disabled by accident, providing comprehensive rehabilitation and support services."
+    },
+    "Program3": {
+      "title": "Computer Prashikshan Kendr",
+      "description": "Sevabharti organizes vocational training in trades such as  computer skills to enhance employability."
+    },
+    "Program4": {
+      "title": "Varaddh Jan Seva Kendr",
+      "description": "A program aimed at supporting the elderly, providing services and care for those in need."
+    }
+  },
+  "Events": {
+    "heading": "Recent Updates",
+    "Button": "Read More",
+    "RecentUpdates": {
+      "Event1": {
+        "title": "Plantation",
+        "description": "Sevabharti actively engages in plantation drives to promote environmental sustainability. By planting trees, we aim to improve air quality, reduce carbon footprints, and create a greener, healthier environment for future generations."
+      },
+      "Event2": {
+        "title": "Baal Sanstha",
+        "description": "Baal Sanstha is an initiative by Sevabharti to provide education and support to underprivileged children. Through this program, we ensure that every child has access to quality education, nutrition, and a safe learning environment."
+      },
+      "Event3": {
+        "title": "Annual Function",
+        "description": "Sevabharti organizes its annual function every year, featuring a variety of cultural programs, award ceremonies, and student performances. This event provides a platform for our students to showcase their talents and serves as a collective celebration."
+      }
+    },
+    "UpcomingEvents": {
+      "heading": "Upcoming Events",
+      "title": "No Upcoming Events",
+      "description": ""
+    }
+  },
+  "AnnualFunction": {
+    "Heading": "Annual Function Celebration",
+    "description": " Sevabharti organizes its annual function every year, featuring a variety of cultural programs, award ceremonies, and student performances. This event provides a platform for our students to showcase their talents and serves as a collective celebration."
+  },
+  "Donate": {
+    "heading": "Donate",
+    "para1": "Our mission is to reach those whose lives need the most change—whether it's empowering rural women or delivering medical and food kits to needy families with no other means. ",
+    "para2": "Your donation plays a vital role in making this change possible. It not only helps us continue our services but also gives us the opportunity to bring hope and transformation to even more lives.",
+    "para3": "Join us on this journey of change. Your small contribution can bring great relief to someone in need.",
+    "para4": " Donations to Seva bharati are eligible for 50% tax exemption under section 80G of the Income Tax Act, India. Your donations are allocated where the need is greatest for providing services and ensuring rights of persons with disability."
+  },
+  "Volunteer": {
+    "button": "Volunteer Now ",
+    "heading": " Volunteer with us",
+    "para": "Volunteering is a great way to give back to society. At Seva Bharathi, you can contribute by volunteering your time, skills and ideas for any activity or cause that you feel closer to. To set your foot in the world of volunteering as well as for building a network, we invite you to join Seva Bharathi as a Volunteer. ",
+    "List": {
+      "TableHead": {
+        "col1": "S.No",
+        "col2": "Name",
+        "col3": "Mobile No."
+      },
+      "TableDetails": {
+        "row1": {
+          "col1": "1",
+          "col2": "Abc",
+          "col3": "+91 9000000000"
+        },
+        "row2": {
+          "col1": "1",
+          "col2": "Abc",
+          "col3": "+91 9000000000"
+        }
+      }
+    }
+  },
+  "OurPresence": {
+    "LocationInfo": {
+      "Location": {
+        "Heading": "Location",
+        "Description": "Khargone, Madhya Pradesh INDIA"
+      },
+      "RegisteredAddress": {
+        "Heading": "Registered Address",
+        "Description": "Ganga Sadan Tagore Park Colony Khargone, (Madhya Pradesh)"
+      },
+      "CorrespondenceAddress": {
+        "Heading": "Correspondence Address",
+        "Description": "22, Vivekanand Colony, Sanawad Road Khargone, (Madhya Pradesh)"
+      },
+      "Contact": {
+        "Heading": "Contact",
+        "Details": "+91-9425089076, 9977459007"
+      },
+      "Email": {
+        "Heading": "Email ID",
+        "Details": "Sevabhartikhargone@gmail.com"
+      }
+    },
+    "InstituteHeading": "Our Institute",
+    "InstituteCards": {
+      "Card1": {
+        "Name": "Seva Bharti",
+        "Location": "22, Vivekanand Colony, Sanawad Road Khargone, Madhya Pradesh"
+      },
+      "Card2": {
+        "Name": "Major Anuradha Smriti Seva Sadan",
+        "Location": "Julwania Road"
+      },
+      "Card3": {
+        "Name": "Computer Center",
+        "Location": "22, Vivekanand Colony, Sanawad Road Khargone, Madhya Pradesh"
+      }
+    }
+  },
+  "TeamData": {
+    "heading": "Our Team",
+    "1": {
+      "Name": "Mr. Harish Agrawal",
+      "Role": "Chairman",
+      "Address": "28, Tagore Park Colony, Khargone",
+      "Contact": "9425089076",
+      "AddDate": "18-07-2023"
+    },
+    "2": {
+      "Name": "Mr. Rajendra Soni",
+      "Role": "Vice President",
+      "Address": "Narayandas Colony, Khargone",
+      "Contact": "9425087338",
+      "AddDate": "19-07-2023"
+    },
+    "3": {
+      "Name": "Mrs. Preeti Jain",
+      "Role": "Vice President",
+      "Address": "1,2 - Basant Vihar, Khargone",
+      "Contact": "9826563344",
+      "AddDate": "19-07-2023"
+    },
+    "4": {
+      "Name": "Mr. Anup Agrawal",
+      "Role": "Treasurer",
+      "Address": "06, Shreenath Colony, Khargone",
+      "Contact": "9826928374",
+      "AddDate": "20-07-2003"
+    },
+    "5": {
+      "Name": "Mr. Kapil Jaju",
+      "Role": "Co-Treasurer",
+      "Address": "10, Vrindavan Colony, Khargone",
+      "Contact": "9425327131",
+      "AddDate": "20-07-2003"
+    },
+    "6": {
+      "Name": "Mr. Rajendra Patidar",
+      "Role": "Secretary",
+      "Address": "166, Gokul Avenue, Khargone",
+      "Contact": "9977459007",
+      "AddDate": "20-07-2003"
+    },
+    "7": {
+      "Name": "Mrs. Seema Joshi",
+      "Role": "Joint Secretary",
+      "Address": "310, Avani Gram, Khargone",
+      "Contact": "7987257414",
+      "AddDate": "19-07-2003"
+    },
+    "8": {
+      "Name": "Dr. Ajay Jain",
+      "Role": "Member",
+      "Address": "1,2 - Basant Vihar, Khargone",
+      "Contact": "9407474111",
+      "AddDate": "21-07-2003"
+    },
+    "9": {
+      "Name": "Mr. Kanhaiya Kothane",
+      "Role": "Member",
+      "Address": "790, New Chameli Ki Badi, Khargone",
+      "Contact": "7999677076",
+      "AddDate": "21-07-2003"
+    },
+    "10": {
+      "Name": "Mr. Beepi Yadav",
+      "Role": "Member",
+      "Address": "Seeta Vihar Colony, Khargone",
+      "Contact": "9826683793",
+      "AddDate": "22-07-2003"
+    },
+    "11": {
+      "Name": "Mr. Mahendra Chouhan",
+      "Role": "Member",
+      "Address": "Balaji Nagar, Avani Gram, Khargone",
+      "Contact": "9826670177",
+      "AddDate": "21-07-2003"
+    },
+    "12": {
+      "Name": "Mrs. Minakshi Mallival",
+      "Role": "Member",
+      "Address": "B-16, Gouridham, Khargone",
+      "Contact": "9753532241",
+      "AddDate": "21-07-2003"
+    }
+  },
+  "Privacy_P": {
+    "heading": "Privacy Policy",
+    "para1": "This website does not automatically capture any specific personal information from you, (like name, phone number or e-mail address),that allows us to identify you individually.",
+    "para2": " If the website requests you to provide personal information, you will be informed for the particular purposes for which the information is gathered e.g. feedback form and adequate security measures will be taken to protect your personal information.",
+    "para3": "  We do not sell or share any personally identifiable information volunteered on the website site to any third party (public/private). Any information provided to this website will be protected from loss, misuse, unauthorized access or disclosure,alteration, or destruction.",
+    "para4": "We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected."
+  },
+  "TermsToUse": {
+    "heading": "Terms and Condition ",
+    "para1": "Khargone is managing the content of the website.Though all efforts have been made to ensure the accuracy and currency of the content on this website, the same should not be construed as a statement of law or used for any legal purposes.",
+    "para2": "In no event will the Khargone district be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal.",
+    "para3": "Links to other websites that have been included on this Portal are provided for public convenience only. We cannot guarantee the availability of such linked pages at all times.These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India."
+  },
+  "Footer": {
+    "footerSection1": {
+      "heading": "ABOUT US",
+      "li1": "About Us",
+      "li2": "Team",
+      "li3": "Contact Us",
+      "li4": "Annual Reports"
+    },
+    "footerSection2": {
+      "heading": "ENGAGE WITH US",
+      "li1": "Events",
+      "li2": "Volunteer",
+      "li3": "Donate",
+      "li4": "Past Program"
+    },
+    "footerSection3": {
+      "heading": "OTHERS",
+      "li1": "Gallery"
+    },
+    "footerBottom": {
+      "li1": "Terms and Conditions ",
+      "li2": "Privacy Policy",
+      "li3": "Copyrights 2023 | All rights reserved by Seva Bharati"
+    }
+  }
+}

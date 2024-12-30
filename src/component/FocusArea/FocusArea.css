@@ -1,0 +1,94 @@
+
+.FocusArea-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 40px;
+    padding: 50px;
+
+  }
+  .FocusArea-container a{
+    text-decoration: none;
+    color: black;
+  }
+  .FocusArea-card {
+    /* border: 2px solid red; */
+    background-color: #FEFBEE;
+    padding: 20px 40px;
+    height: 500px;
+    
+
+  }
+  .FocusArea-card .FocusArea-box-text
+  {font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #FF5722;
+  text-decoration: none;}
+  .FocusArea-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .FocusArea-card .FocusArea-box-description{
+    color: #4A4A51;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .FocusArea-card .FocusArea-box-img{
+    height: 150px;
+    width: 150px;
+ }
+ .FocusArea-head h1{
+  text-align: center;
+  font-size: 30px;
+  color: #0A8C18;
+  padding-top: 30px;
+
+ }
+ .FocusArea-head p{
+  text-align: center;
+  /* padding: 10px 300px; */
+  
+  font-size: 18px;
+ }
+ .FocusArea-head{
+  /* width: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 200px;
+ }
+
+ @media (max-width: 768px){
+  .FocusArea-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+   /* margin-left: 20px; */
+   padding: 20px;
+
+  }
+  .FocusArea-head p{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+   }
+   .FocusArea-head{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+   
+   }
+   
+   
+ }

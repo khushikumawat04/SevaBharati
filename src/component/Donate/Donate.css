@@ -1,0 +1,538 @@
+.donate-box {
+    border: 2px solid rgb(255, 255, 255);
+    max-width: 1400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+
+.donate-img {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-img img {
+    max-height: 305px;
+    max-width: 400px;
+    object-fit: cover;
+    margin-top: 25px;
+}
+
+.donate-content {
+    flex: 2;
+    margin-left: 180px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1 {
+    color: #ea7704;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.para1, .para2 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* line-height: 1.5; */
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.donate-btn {
+    height: 40px;
+    width: 110px;
+    background-color: #ea7704;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .donate-box {
+        margin-left: 50px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .donate-content {
+        margin-left: 50px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .donate-box {
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .donate-img,
+    .donate-content {
+        flex: 1;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .donate-img {
+        justify-content: flex-start;
+    }
+
+    .donate-content {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .donate-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .donate-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .donate-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .heading1 {
+        font-size: 20px;
+    }
+
+    .para1, .para2 {
+        font-size: 14px;
+    }
+
+    .donate-btn {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .donate-box {
+        padding: 5px;
+    }
+
+    .heading1 {
+        font-size: 18px;
+    }
+
+    .para1, .para2 {
+        font-size: 12px;
+        text-align: justify;
+        /* border: 2px solid black; */
+        padding: 5px;
+    }
+
+    .donate-btn {
+        width: 100px;
+        font-size: 12px;
+    }
+}
+    
+.donate-compaign {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .heading2 {
+    color: #165a1d;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .cards-boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+  }
+  
+  .donate-cards {
+    height: 420px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff8dc;
+    border: 2px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .donate-cards img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .heading3 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #333333;
+  }
+  
+  .heading1 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ea7704;
+  }
+  
+  #heading3 {
+    color: #e2311d;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  .card-info {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .donate-btn1 {
+    height: 40px;
+    width: 90px;
+    background-color: #ea7704;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .cards-boxs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .donate-cards {
+      height: auto;
+    }
+  
+    .donate-cards img {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cards-boxs {
+      grid-template-columns: 1fr;
+    }
+  
+    .donate-cards {
+      margin: 0 auto;
+      height: auto;
+    }
+  
+    .donate-cards img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .donate-btn1 {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading2 {
+      font-size: 24px;
+    }
+  
+    .heading3, .card-info {
+      font-size: 14px;
+    }
+  
+    .donate-btn1 {
+      height: 35px;
+      width: 80px;
+      font-size: 12px;
+    }
+  }
+  
+
+
+
+  .donate-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .donate-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .donate-card {
+    background-color: #fcf8e5;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  
+  .donate-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .donate-contents {
+    padding: 20px;
+  }
+  
+  .donate-content-heading {
+    margin-left: -10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #225E87;
+    font-size: 30px;
+  }
+  
+  .donate-content-para {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+  }
+  
+  .bank-details {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  span {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .Address,
+  .IFSC,
+  .bank {
+    margin-left: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media (max-width: 1200px) {
+    .donate-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .donate-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .donate-card {
+      width: 80%;
+    }
+  
+    .donate-content-heading {
+      font-size: 24px;
+    }
+  
+    .donate-content-para,
+    .bank-details {
+      font-size: 14px;
+    }
+  
+    span,
+    .Address,
+    .IFSC,
+    .bank {
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .donate-content-heading {
+      font-size: 20px;
+    }
+  
+    .donate-content-para,
+    .bank-details {
+      font-size: 12px;
+    }
+  
+    span,
+    .Address,
+    .IFSC,
+    .bank {
+      margin-left: 5px;
+    }
+  
+    .donate-card {
+      width: 90%;
+    }
+  }
+ 
+  
+/* bank detail part start here */
+.bank-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Changed from fixed height to auto */
+    background-color: rgb(240, 248, 255);
+    padding: 20px; /* Added padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+}
+
+.bank-heading {
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #225E87;
+    font-size: 24px; /* Changed from shorthand font property */
+}
+
+.bank-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 50px;
+    justify-content: center; /* Center align items on smaller screens */
+}
+
+.bank-card {
+    background-color: #fcf8e5;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Changed from fixed height to auto */
+    margin-top: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+}
+
+.bank-contents {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bank-content-heading {
+    color: #131415;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px; /* Changed from shorthand font property */
+    margin-bottom: 20px;
+}
+
+.bank-contents p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px; /* Changed from shorthand font property */
+    margin: 5px 0;
+    color: #555;
+}
+
+.bank-contents p span {
+    font-weight: 400;
+    color: #000;
+}
+
+.bank-contents img {
+    margin-top: 10px;
+    width: 100%; /* Make the image responsive */
+    max-width: 500px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 0; /* Center the image on smaller screens */
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+    .bank-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bank-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bank-card {
+        width: 80%;
+    }
+
+    .bank-content-heading {
+        font-size: 18px;
+    }
+
+    .bank-contents p {
+        font-size: 13px;
+    }
+
+    .bank-contents img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bank-content-heading {
+        font-size: 16px;
+    }
+
+    .bank-contents p {
+        font-size: 12px;
+    }
+
+    .bank-card {
+        width: 90%;
+    }
+}

@@ -1,0 +1,206 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* our presence */
+.location-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location {
+    height: 500px;
+    width: 1210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+  }
+  .location-info {
+    height: 470px;
+    width: 400px;
+    background-color: #fff8dc;
+    /* border: 2px solid red; */
+  }
+  .location-map {
+    height: 470px;
+    width: 400px;
+    margin-left: 60px;
+  }
+  .location-info h1 {
+    color: var(--orange);
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .location-info p {
+    font-family: "Poppins" sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .registered_address ,.correspondence_address , .contact , .email{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 15px;
+    text-align: justify;
+    margin-top: -1px;
+    /* align-items: center; */
+  }
+  .registered_address p , .correspondence_address p , .contact p , .email p{
+    font-size: 17px;
+  }
+  .fsIcons{
+    /* border: 2px solid red; */
+    margin-right: 10px;
+
+  }
+  .location-info .social_icons{
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+  }
+   .location-info .social_icons img{
+    width:35px;
+    margin-left: 10px;
+   }
+  /* Institution part start */
+
+
+.institute-heading {
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #165A32;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.institute-cards {
+    height: auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.institute-card-1, .institute-card-2, .institute-card-3 {
+    border: 2px solid wheat;
+    height: 150px;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #165A32;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.institute-location {
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institute-location p {
+    margin-left: 8px;
+}
+
+.location-details {
+    /* border: 2px solid blue; */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #165A32;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .institute-card-1, .institute-card-2, .institute-card-3 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    .institute-card-1, .institute-card-2, .institute-card-3 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .institute-card-1, .institute-card-2, .institute-card-3 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .institute-card-1, .institute-card-2, .institute-card-3 {
+        width: 90%;
+        
+    }
+    .institute-heading {
+        margin-top: 0px;
+
+    }
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+    .location {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .location-info, .location-map {
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .location-info {
+        width: 100%;
+    }
+
+    .location-map {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 200px;
+    }
+
+    .location-info h1 {
+        font-size: 24px;
+    }
+
+    .location-info p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-info h1 {
+        font-size: 20px;
+    }
+
+    .location-info p {
+        font-size: 16px;
+    }
+
+    .location-map {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}

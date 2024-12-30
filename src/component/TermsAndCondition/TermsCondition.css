@@ -1,0 +1,51 @@
+.TC-heading {
+    font-size: 28px;
+    color: #165A1D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.TC-left1-box{
+    /* border: 2px solid red; */
+    width: 80%;
+}
+
+.TC-main-box {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 20px;
+
+}
+
+.TC-left1-box ul li,
+.TC-right-box ul li {
+    font-size: 16px;
+    color: #222240;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .TC-main-box {
+        flex-direction: row;
+    }
+
+    .TC-left-box, .TC-right-box {
+        width: 40%;
+        height: 500px;
+        padding: 0;
+    }
+
+    .TC-left-box {
+        margin-left: 100px;
+    }
+}

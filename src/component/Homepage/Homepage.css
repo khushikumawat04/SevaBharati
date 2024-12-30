@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Main-home-image {
+    width: 100%;
+  }
+  /* Home slider end */
+  /* About section start from here */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.heading,
+.Who,
+.Gallery-heading {
+    color: #0A8C18;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.video {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 630px;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid red;
+}
+
+.video .video1 {
+    width: 100%;
+    height: 315px;
+    border: 2px solid #000;
+}
+
+.text {
+    color: #222240;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.know-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.know-btn:hover {
+    border: 2px solid var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* .heading {
+        font-size: 36px;
+    }
+    
+    .Who,
+    .Gallery-heading {
+        font-size: 24px;
+    } */
+    
+    .video iframe {
+        height: 210px;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+    
+    .know-btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+         /* media query for scroll */
+         /* .focus-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .focus-card {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            width: 300px;
+            margin-right: 20px;
+        } */
+          /* state award */
+    .award-content .award-text h1 {
+        
+        margin-top:-100px;
+        /* margin-bottom: 0px; */
+    }
+
+    /* gallery section */
+    .Gallery-main-section .Gallery-about{
+        display: none;
+    }
+    .Gallery-main-section .gallery-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .heading {
+        font-size: 24px;
+    }
+    
+    .Who,
+    .Gallery-heading {
+        font-size: 18px;
+    } */
+    
+    .video iframe {
+        height: 180px;
+    }
+    
+    .text {
+        font-size: 12px;
+    }
+    
+    .know-btn {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    /* .focus-card {
+        width: 280px;
+    } */
+    .home-container{
+        width: 100%;
+        /* border: 2px solid red; */
+        margin-left: 0px;
+    }
+    .award-content img {
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        /* border: 2px solid red; */
+    }
+    /* .state-award-img {
+        width: 50%;
+        /* margin-top: 10px;
+        margin-left: -200px;*/
+        .state-award{
+          display: none;
+        }
+      
+
+   
+  
+}
+
+  
+  /* @media screen and (max-width: 768px) {
+    .video {
+      width: 20%;
+      margin-left: -90px;
+    }
+  } */
+  
+  /* About section end from here */
+
+  /* Focus card start */
+  
+   .Focus-heading {
+    color: var(--green);
+    /* font-size: 36px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+  
+  }
+  .focus-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 30px;
+
+  }
+  .focus-card {
+    /* border: 2px solid red; */
+  }
+  .focus-card .focus-box-text{font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--orange);
+  text-decoration: none;}
+  .focus-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .focus-card .focus-box-description{
+    color: #4A4A51;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* padding: 10px 100px; */
+ }
+ .focus-card .focus-box-img{
+    height: 200px;
+    width: 200px;
+ }
+ /* Focus card end */
+
+ /* Program start */
+
+
+
+/* /Program css end/ */
+
+/* /Start state-award/ */
+
+
+.state-award {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    /* border: 1px solid wheat; */
+    height: auto
+}
+
+.award-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+   
+   
+}
+
+/* .award-content img {
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+} */
+
+/* .state-award-img {
+  width: 50%;
+  /* margin-top: 10px;
+  margin-left: -200px;*/
+
+.award-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    /* border: 2px solid red; */
+}
+
+
+.award-text {
+
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+.award-text h1 {
+    font-family: Arial, sans-serif;
+    margin-top: -100px;
+    /* margin-left: 300px; */
+    /* font-size: 36px; */
+    color: var(--green);
+    /* margin-bottom: 10px; */
+}
+
+.award-text p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    color: #222240;
+    line-height: 1.5;
+    margin-top: 40px;
+    /* margin-left: 50px; */
+}
+/* /End State state-award/ */
+
+
+/* Gallery section start from here */
+
+.gallery-frame {
+    border: 4px solid grey;
+    height: 485px;
+    width: 60%;
+    /* margin-top: 80px; */
+    border-radius: 10px;
+    /* border: 4px solid red; */
+  }
+  
+  .gallery-heading {
+    margin-top: 50px;
+  }
+  
+  .Gallery-main-section {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px; */
+   /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;  */
+  } 
+  
+  .Gallery-about {
+    /* border: 2px solid red; */
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 1.9;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight:400;
+    width: 40%;
+  }
+  .Gallery-about .facebook-embed iframe{
+    /* border: 2px solid blue; */
+    height: 400px;
+  }
+  
+  /* Gallery section start from here */
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery-container{
+    overflow: scroll;
+    height: 450px;
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid red; */
+    
+  }
+  .image-container {
+    width: calc(50% - 10px); /* Adjust the width as needed */
+    margin: 5px; /* Add some margin between images */
+    overflow: hidden; /* Ensure the image does not overflow its container */
+    position: relative; /* Enable positioning of child elements */
+  }
+  .image-container img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 250px; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+  }
+  .image-container:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+
+  /* model start */
+  .model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    transition: opacity .4s ease, visibility .4s ease, trasform .5s ease-in-out ;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+  }
+  .model.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+
+  }
+.model img{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+}
+.model a {
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    top:5px;
+    right: 20px;
+}
+  /* model end */
+  
+  /* Gallery section end here */
+  /* Gallery section end here */

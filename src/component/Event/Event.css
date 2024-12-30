@@ -1,0 +1,108 @@
+.event-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    /* border: 2px solid red; */
+  }
+  
+  .recent-event-container,
+  .upcoming-event-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recent-event-container {
+    width: 65%;
+    /* border: 2px solid red; */
+  }
+  
+  .upcoming-event-container {
+    width: 30%;
+  }
+  
+  .slider-container {
+    margin-top: 20px;
+  }
+  
+  .event-slider1 {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+  }
+  
+  .event-slider-content {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  .event-image {
+    margin-right: 20px;
+  }
+  
+  .event-image img {
+    /* border: 2px solid blue; */
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .event-text {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  
+  .event-text p {
+    margin: 0 0 10px 0;
+  }
+  
+  .event-text button {
+    align-self: flex-start;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event-text button:hover {
+    background-color: #45a049;
+  }
+
+  @media  (min-width: 280px) and (max-width:768px )
+  {
+    .event-container {
+      /* border: 2px solid green; */
+      padding: 10px;
+      /* width: fit-content; */
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+    .recent-event-container {
+      width: 350px;
+      text-align: justify;
+      padding: 10px;
+      /* border: 2px solid red; */
+    }
+    .event-image img {
+      /* border: 2px solid blue; */
+      width: 300px;
+      margin: 0 0 5px 5px;
+    }
+    .event-slider-content {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .upcoming-event-container {
+      width: fit-content;
+      margin: 30px 0 10px 10px;
+      
+    }
+  }

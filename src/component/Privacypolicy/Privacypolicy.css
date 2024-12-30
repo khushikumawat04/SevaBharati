@@ -1,0 +1,35 @@
+.privacy-heading {
+    font-size: 28px;
+    color: #165A1D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.privacy-text ul li {
+    font-size: 16px;
+    color: #222240;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.privacy-text {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .privacy-text {
+        height: 500px;
+        width: 85%;
+        margin-left: 110px;
+        padding: 0;
+    }
+}
